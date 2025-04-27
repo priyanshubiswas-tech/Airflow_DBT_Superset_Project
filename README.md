@@ -63,9 +63,9 @@ Outcome: End-to-end automated pipeline that refreshes data daily.
 
 
 
-<img src="Media Stock/Airflow DAG success.png" alt="GitHub Banner" width="100%" />
+<img src="Media Stock/Airflow DAG success.png" alt="DAG Success" width="100%" />
 
-<img src="Media Stock/Docker_Version_27.4.0.jpeg" alt="GitHub Banner" width="100%" />
+<img src="Media Stock/Docker_Version_27.4.0_.jpeg" alt="Dcker Desktop Graph" width="100%" />
 ---
 
 ### Task 3: Data Visualization (Apache Superset)
