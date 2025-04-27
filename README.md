@@ -61,6 +61,11 @@ Steps Completed:
 
 Outcome: End-to-end automated pipeline that refreshes data daily.
 
+![Airflow DAG on Docker Toolbox](Media Stock/Docker_Version_27.4.0.jpeg)
+*Successful DAG execution within a Docker Toolbox environment.*
+
+![Airflow DAG on Postgres Desktop App](Media Stock/Airflow DAG success.png)
+*Successful DAG execution connected to a local Postgres Desktop application, showcasing the Graph View.*
 ---
 
 ### Task 3: Data Visualization (Apache Superset)
