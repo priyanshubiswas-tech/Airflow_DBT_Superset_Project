@@ -27,7 +27,7 @@ Steps Completed:
   - Corrected data types (timestamps, numeric columns).
 
 DBT Models Created:
-
+[View Models Folder](https://github.com/priyanshubiswas-tech/Airflow_DBT_Superset_Project/tree/main/DBT%20Project%20files%20and%20SQL%20transformations/Models)
 - `avg_resolution_time.sql`: Calculates average resolution time per category.
 - `clean_incidents.sql`: Cleans up and standardizes the incident records.
 - `closure_rate.sql`: Calculates closure rates.
