@@ -24,5 +24,4 @@ cleaned AS (
     FROM raw
 )
 
-SELECT * 
-FROM cleaned
+SELECT * FROM cleaned
