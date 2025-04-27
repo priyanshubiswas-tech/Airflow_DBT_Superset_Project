@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: incidents_staging
+
+models:
+  - name: clean_incidents
+    description: "Cleans the incidents staging data: removes duplicates, handles nulls, converts timestamps."
+  - name: tickets_with_dates
+    description: "Adds year, month, and day extracted from incident creation date."
+  - name: avg_resolution_time
+    description: "Calculates average resolution time in hours per Category and Priority."
+  - name: closure_rate
+    description: "Calculates closure rate (%) per Assignment Group."
+  - name: monthly_ticket_summary
+    description: "Monthly aggregation: tickets created, average resolution time, and closure rate."
