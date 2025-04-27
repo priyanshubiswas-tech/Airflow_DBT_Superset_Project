@@ -99,7 +99,7 @@ Added Filters for:
 - Category
 - Priority
 
-Outcome: A dynamic dashboard ready for reporting and executive analysis.
+Outcome: A dynamic dashboard ready for reporting and executive analysis. [View JSON file](https://github.com/priyanshubiswas-tech/Airflow_DBT_Superset_Project/blob/main/Superset%20Dashboard%20export%20(JSON)/Superset_dashbord.json)
 
 ---
 
