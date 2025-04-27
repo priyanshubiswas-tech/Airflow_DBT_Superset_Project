@@ -52,6 +52,7 @@ Outcome: A clean, staged, and properly structured dataset in `incidents_staging`
 Steps Completed:
 
 - Created an Airflow DAG file: `final_etl_dag.py`.
+[View DAG File](https://github.com/priyanshubiswas-tech/Airflow_DBT_Superset_Project/blob/main/Airflow%20DAG%20file/final_etl_dag.py)
 - Tasks defined:
   1. CSV to Postgres ingestion: Using PostgresOperator with COPY command.
   2. DBT Model Execution: Using BashOperator to trigger `dbt run`.
@@ -99,7 +100,7 @@ Added Filters for:
 - Category
 - Priority
 
-Outcome: A dynamic dashboard ready for reporting and executive analysis. [View JSON file](https://github.com/priyanshubiswas-tech/Airflow_DBT_Superset_Project/blob/main/Superset%20Dashboard%20export%20(JSON)/Superset_dashbord.json)
+Outcome: A dynamic dashboard ready for reporting and executive analysis. [View JSON File](https://github.com/priyanshubiswas-tech/Airflow_DBT_Superset_Project/blob/main/Superset%20Dashboard%20export%20(JSON)/Superset_dashbord.json)
 
 ---
 
