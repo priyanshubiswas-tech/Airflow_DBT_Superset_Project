@@ -64,12 +64,17 @@ Steps Completed:
 To demonstrate cross-platform compatibility and my understanding of the underlying system, the Airflow DAG was tested in a Docker Toolbox environment.
 
 <img src="Media Stock/Airflow DAG success.png" alt="DAG Success" width="100%" />
+
 *This image shows the successful execution of the Airflow DAG within a Docker Toolbox setup, validating its functionality across different environments. It highlights my familiarity with daemon processes, `pwd`, and other relevant packages.*
+
 
 The following image, originating from Docker version 27.4.0, further illustrates the pipeline's operation.
 
+
 <img src="Media Stock/Docker_Version_27.4.0_ -.jpeg" alt="Dcker Desktop Graph" width="100%" />
+
 *This image displays the Airflow DAG's graph view, confirming the successful pipeline run and providing a visual representation of the workflow.*
+
 
 Outcome: End-to-end automated pipeline that refreshes data daily, validated across platforms.
 ---
