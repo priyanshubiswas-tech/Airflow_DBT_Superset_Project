@@ -35,7 +35,7 @@ DBT Models Created:
 - `tickets_with_dates.sql`: Creates ticket timelines.
 
 Views Created:
-
+[View Views Folder](https://github.com/priyanshubiswas-tech/Airflow_DBT_Superset_Project/tree/main/DBT%20Project%20files%20and%20SQL%20transformations/Views)
 - `Avg resolution time view.sql`
 - `Clean incidents view.sql`
 - `Closure rate view.sql`
