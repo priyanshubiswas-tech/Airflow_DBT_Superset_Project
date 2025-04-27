@@ -128,7 +128,7 @@ Outcome: A dynamic dashboard ready for reporting and executive analysis.
 
 ---
 
-## System Flow Overview (Markdown Diagram)
+## System Flow Overview (My Approach)
 
 ```markdown
 +------------------+                 +---------------------+
