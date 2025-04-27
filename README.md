@@ -75,8 +75,8 @@ The following image, originating from Docker version 27.4.0, further illustrates
 
 *This image displays the Airflow DAG's graph view, confirming the successful pipeline run and providing a visual representation of the workflow.*
 
-
 Outcome: End-to-end automated pipeline that refreshes data daily, validated across platforms.
+
 ---
 
 ### Task 3: Data Visualization (Apache Superset)
