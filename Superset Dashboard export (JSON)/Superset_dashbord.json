@@ -1,0 +1,85 @@
+{
+    "dashboard_title": "ITSM Dashboard",
+    "position_json": "{}",
+    "metadata": {
+    "native_filter_configuration": [],
+    "timed_refresh_immune_slices": [],
+    "filter_scopes": {},
+    "refresh_frequency": 0
+    },
+    "slices": [
+    {
+    "slice_name": "Ticket Volume Trends",
+    "viz_type": "line",
+    "params": {
+    "metrics": ["count"],
+    "groupby": ["created_date"],
+    "adhoc_filters": [],
+    "datasource": "incidents_staging__table",
+    "time_grain_sqla": "P1D",
+    "x_axis": "created_date",
+    "y_axis_format": "SMART_NUMBER",
+    "line_interpolation": "linear",
+    "granularity_sqla": "created_date"
+    }
+    },
+    {
+    "slice_name": "Resolution Time",
+    "viz_type": "bar",
+    "params": {
+    "metrics": ["AVG(avg_resolution_time_hrs)"],
+    "groupby": ["category"],
+    "adhoc_filters": [],
+    "datasource": "incidents_staging__table",
+    "x_axis": "category",
+    "y_axis_format": "SMART_NUMBER",
+    "granularity_sqla": "created_date"
+    }
+    },
+    {
+    "slice_name": "Closure Rate",
+    "viz_type": "pie",
+    "params": {
+    "metrics": ["AVG(closure_rate_percentage)"],
+    "groupby": ["assigned_group"],
+    "adhoc_filters": [],
+    "datasource": "incidents_staging__table",
+    "granularity_sqla": "created_date"
+    }
+    },
+    {
+    "slice_name": "Ticket Backlog",
+    "viz_type": "table",
+    "params": {
+    "metrics": ["count"],
+    "groupby": ["priority"],
+    "adhoc_filters": [{
+    "expressionType": "SQL",
+    "sqlExpression": "status = 'Open'",
+    "clause": "WHERE",
+    "comparator": null
+    }],
+    "datasource": "incidents_staging__table",
+    "granularity_sqla": "created_date"
+    }
+    }
+    ],
+    "charts": [],
+    "filters": [
+    {
+    "name": "Week",
+    "column": "week",
+    "dataset": "incidents_staging__table"
+    },
+    {
+    "name": "Category",
+    "column": "category",
+    "dataset": "incidents_staging__table"
+    },
+    {
+    "name": "Priority",
+    "column": "priority",
+    "dataset": "incidents_staging__table"
+    }
+    ]
+}
