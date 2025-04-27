@@ -1,7 +1,7 @@
 WITH raw AS (
     SELECT DISTINCT *
     FROM {{ source('public', 'incidents_staging') }}
-    WHERE inc_sys_created_on <> 'inc_sys_created_on' -- ❗ Skip bad header rows
+    WHERE inc_sys_created_on <> 'inc_sys_created_on' 
 ),
 
 cleaned AS (
