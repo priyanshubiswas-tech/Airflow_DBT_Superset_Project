@@ -168,7 +168,7 @@ Outcome: A dynamic dashboard ready for reporting and executive analysis. [View J
 - DBT (Data Build Tool)
 - Apache Airflow (Orchestration)
 - Apache Superset (BI and Visualization)
-- Docker Toolbox (Environment)
+- Docker Toolbox & Docker Desktop 27.4.0 (Environment)
 
 ---
 
